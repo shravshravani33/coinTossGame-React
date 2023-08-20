@@ -1,0 +1,44 @@
+.main-div {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.inner-div {
+  height: 80%;
+  width: 30%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #a35200;
+  font-family: Roboto;
+}
+p {
+  color: #334155;
+  font-weight: 500;
+  font-family: Roboto;
+  padding: 20px;
+}
+.coin-decor {
+  height: 180px;
+  width: 180px;
+}
+.btn-decor {
+  background-color: #e2a139;
+  color: #a35200;
+  padding: 9px;
+  border-width: 0;
+  border-radius: 4px;
+  height: 30px;
+  width: 90px;
+  cursor: pointer;
+}
+.counts-div {
+  display: flex;
+}
